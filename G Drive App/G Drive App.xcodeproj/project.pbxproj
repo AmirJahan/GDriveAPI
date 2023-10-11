@@ -13,6 +13,15 @@
 		1E1C62192ACE089A0081121E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E1C62182ACE089A0081121E /* Preview Assets.xcassets */; };
 		1E1C62212ACE08D30081121E /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1E1C62202ACE08D30081121E /* GoogleSignInSwift */; };
 		1E1C62232ACE09C20081121E /* client_133653199403-mr3mut1uopve5h28vdh3iutn0i3absit.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E1C62222ACE09C20081121E /* client_133653199403-mr3mut1uopve5h28vdh3iutn0i3absit.apps.googleusercontent.com.plist */; };
+		A97A74A42AD73CCD0042A6B0 /* Discovery in Frameworks */ = {isa = PBXBuildFile; productRef = A97A74A32AD73CCD0042A6B0 /* Discovery */; };
+		A97A74A62AD73CCD0042A6B0 /* GoogleAPIRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = A97A74A52AD73CCD0042A6B0 /* GoogleAPIRuntime */; };
+		A97A74A92AD73D230042A6B0 /* GTMSessionFetcher in Frameworks */ = {isa = PBXBuildFile; productRef = A97A74A82AD73D230042A6B0 /* GTMSessionFetcher */; };
+		A97A74AB2AD73D230042A6B0 /* GTMSessionFetcherCore in Frameworks */ = {isa = PBXBuildFile; productRef = A97A74AA2AD73D230042A6B0 /* GTMSessionFetcherCore */; };
+		A97A74AD2AD73D230042A6B0 /* GTMSessionFetcherFull in Frameworks */ = {isa = PBXBuildFile; productRef = A97A74AC2AD73D230042A6B0 /* GTMSessionFetcherFull */; };
+		A97A74AF2AD73D230042A6B0 /* GTMSessionFetcherLogView in Frameworks */ = {isa = PBXBuildFile; productRef = A97A74AE2AD73D230042A6B0 /* GTMSessionFetcherLogView */; };
+		A97A74B72AD740220042A6B0 /* GoogleAPIClientForRESTCore in Frameworks */ = {isa = PBXBuildFile; productRef = A97A74B62AD740220042A6B0 /* GoogleAPIClientForRESTCore */; };
+		A97A74B92AD740300042A6B0 /* GoogleAPIClientForREST_SQLAdmin in Frameworks */ = {isa = PBXBuildFile; productRef = A97A74B82AD740300042A6B0 /* GoogleAPIClientForREST_SQLAdmin */; };
+		A97A74BB2AD7403B0042A6B0 /* GoogleAPIClientForREST_Drive in Frameworks */ = {isa = PBXBuildFile; productRef = A97A74BA2AD7403B0042A6B0 /* GoogleAPIClientForREST_Drive */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +39,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97A74A62AD73CCD0042A6B0 /* GoogleAPIRuntime in Frameworks */,
 				1E1C62212ACE08D30081121E /* GoogleSignInSwift in Frameworks */,
+				A97A74AB2AD73D230042A6B0 /* GTMSessionFetcherCore in Frameworks */,
+				A97A74AD2AD73D230042A6B0 /* GTMSessionFetcherFull in Frameworks */,
+				A97A74BB2AD7403B0042A6B0 /* GoogleAPIClientForREST_Drive in Frameworks */,
+				A97A74A92AD73D230042A6B0 /* GTMSessionFetcher in Frameworks */,
+				A97A74A42AD73CCD0042A6B0 /* Discovery in Frameworks */,
+				A97A74B92AD740300042A6B0 /* GoogleAPIClientForREST_SQLAdmin in Frameworks */,
+				A97A74B72AD740220042A6B0 /* GoogleAPIClientForRESTCore in Frameworks */,
+				A97A74AF2AD73D230042A6B0 /* GTMSessionFetcherLogView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +60,7 @@
 			children = (
 				1E1C62102ACE08980081121E /* G Drive App */,
 				1E1C620F2ACE08980081121E /* Products */,
+				A97A74B52AD740220042A6B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +93,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A97A74B52AD740220042A6B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -92,6 +118,15 @@
 			name = "G Drive App";
 			packageProductDependencies = (
 				1E1C62202ACE08D30081121E /* GoogleSignInSwift */,
+				A97A74A32AD73CCD0042A6B0 /* Discovery */,
+				A97A74A52AD73CCD0042A6B0 /* GoogleAPIRuntime */,
+				A97A74A82AD73D230042A6B0 /* GTMSessionFetcher */,
+				A97A74AA2AD73D230042A6B0 /* GTMSessionFetcherCore */,
+				A97A74AC2AD73D230042A6B0 /* GTMSessionFetcherFull */,
+				A97A74AE2AD73D230042A6B0 /* GTMSessionFetcherLogView */,
+				A97A74B62AD740220042A6B0 /* GoogleAPIClientForRESTCore */,
+				A97A74B82AD740300042A6B0 /* GoogleAPIClientForREST_SQLAdmin */,
+				A97A74BA2AD7403B0042A6B0 /* GoogleAPIClientForREST_Drive */,
 			);
 			productName = "G Drive App";
 			productReference = 1E1C620E2ACE08980081121E /* G Drive App.app */;
@@ -123,6 +158,9 @@
 			mainGroup = 1E1C62052ACE08980081121E;
 			packageReferences = (
 				1E1C621F2ACE08D30081121E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				A97A74A22AD73CCD0042A6B0 /* XCRemoteSwiftPackageReference "google-api-swift-client" */,
+				A97A74A72AD73D230042A6B0 /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */,
+				A97A74B02AD73E820042A6B0 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */,
 			);
 			productRefGroup = 1E1C620F2ACE08980081121E /* Products */;
 			projectDirPath = "";
@@ -365,6 +403,30 @@
 				kind = branch;
 			};
 		};
+		A97A74A22AD73CCD0042A6B0 /* XCRemoteSwiftPackageReference "google-api-swift-client" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleapis/google-api-swift-client.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A97A74A72AD73D230042A6B0 /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/gtm-session-fetcher.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A97A74B02AD73E820042A6B0 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/google-api-objectivec-client-for-rest.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -372,6 +434,51 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1E1C621F2ACE08D30081121E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
 			productName = GoogleSignInSwift;
+		};
+		A97A74A32AD73CCD0042A6B0 /* Discovery */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97A74A22AD73CCD0042A6B0 /* XCRemoteSwiftPackageReference "google-api-swift-client" */;
+			productName = Discovery;
+		};
+		A97A74A52AD73CCD0042A6B0 /* GoogleAPIRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97A74A22AD73CCD0042A6B0 /* XCRemoteSwiftPackageReference "google-api-swift-client" */;
+			productName = GoogleAPIRuntime;
+		};
+		A97A74A82AD73D230042A6B0 /* GTMSessionFetcher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97A74A72AD73D230042A6B0 /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */;
+			productName = GTMSessionFetcher;
+		};
+		A97A74AA2AD73D230042A6B0 /* GTMSessionFetcherCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97A74A72AD73D230042A6B0 /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */;
+			productName = GTMSessionFetcherCore;
+		};
+		A97A74AC2AD73D230042A6B0 /* GTMSessionFetcherFull */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97A74A72AD73D230042A6B0 /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */;
+			productName = GTMSessionFetcherFull;
+		};
+		A97A74AE2AD73D230042A6B0 /* GTMSessionFetcherLogView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97A74A72AD73D230042A6B0 /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */;
+			productName = GTMSessionFetcherLogView;
+		};
+		A97A74B62AD740220042A6B0 /* GoogleAPIClientForRESTCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97A74B02AD73E820042A6B0 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForRESTCore;
+		};
+		A97A74B82AD740300042A6B0 /* GoogleAPIClientForREST_SQLAdmin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97A74B02AD73E820042A6B0 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_SQLAdmin;
+		};
+		A97A74BA2AD7403B0042A6B0 /* GoogleAPIClientForREST_Drive */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97A74B02AD73E820042A6B0 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Drive;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
